@@ -1,13 +1,18 @@
 {
-  "name": "monorepo-template",
+  "name": "notes",
   "version": "0.0.0",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {},
   "devDependencies": {
+    "@eslint/js": "^9.16.0",
     "@tsconfig/node20": "^20.1.4",
-    "typescript": "5.6.2"
+    "eslint": "^9.16.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.13.0",
+    "typescript": "5.6.2",
+    "typescript-eslint": "^8.17.0"
   },
   "dependencies": {
     "sst": "^3"
