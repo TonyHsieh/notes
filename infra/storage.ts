@@ -1,4 +1,4 @@
-export const bucket = new sst.aws.Bucket("Uploads", {
+/*export const bucket = new sst.aws.Bucket("Uploads", {
   access: "public"
 });
 
@@ -10,3 +10,7 @@ export const table = new sst.aws.Dynamo("Notes", {
   },
   primaryIndex: { hashKey: "userId", rangeKey: "noteId" },
 });
+*/
+
+// Create an S3 bucket
+export const bucket = new sst.aws.Bucket("Uploads");
