@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "registry.npmjs.org": "^1.0.1",
-    "sst": "^3.4.32"
+    "sst": "^3.4.32",
+    "stripe": "^17.5.0"
   }
 }
