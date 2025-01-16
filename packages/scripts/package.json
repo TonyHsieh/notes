@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "@notes/core": "*",
-    "sst": "3.4.32"
+    "sst": "3.5.7"
   },
   "scripts": {
     "shell": "sst shell tsx"
